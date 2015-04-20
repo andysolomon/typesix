@@ -1,0 +1,142 @@
+/*   Typoxcale:  */
+
+/*   Typoxcale__Reset:  */
+body, p, ul, dl, dd, div, menu, dir, h1, h2, h3, h4, h5, h6, blockquote{
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+html {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+body{
+  color: #4A4A4A;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+/*   Typoxcale__Reset:  */
+
+.alpha,h1 {
+  font-size: 120px;
+  line-height: 156px;
+}
+
+.beta,h2 {
+  font-size: 72px;
+  line-height: 96px;
+}
+
+.gamma,h3 {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.delta,h4 {
+  font-size: 48px;
+  line-height: 66px;
+}
+
+.epsilon,h5 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.zeta,h6 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.eta {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.theta {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.iota {
+  font-size: 9px;
+  line-height: 24px;
+}
+
+/*   Typoxcale__Spacing:   */
+.spacer {
+  height: 78px;
+  line-height: 78px;
+  width: 100%;
+  font-size: 30px;
+  border-top: 0.5em solid;
+  border-bottom: 0.5em solid;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.pad {
+  padding: 1em;
+}
+.pad--2 {
+  padding: 2em;
+}
+.pad--3 {
+  padding: 3em;
+}
+.pad--half {
+  padding: 0.5em;
+}
+.pad--quart {
+  padding: 0.25em;
+}
+.pad--none {
+  padding: 0;
+}
+.pad--b {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.pad--l {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+.pad--t {
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+.pad--r {
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-top: 0;
+}
+.pad--tb {
+  padding-right: 0;
+  padding-left: 0;
+}
+.pad--lr {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/*
+.push {
+margin: 1em;
+}
+.pad--2 {
+margin: 2em;
+}
+.pad--3 {
+margin: 3em;
+}
+.pad--half {
+margin: 0.5em;
+}*/
+/*   Typoxcale__Spacing;   */
+/*   Typoxcale;  */

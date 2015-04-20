@@ -1,0 +1,109 @@
+<html>
+<head>
+  <link rel="stylesheet" href="typescale.css"/>
+  <link rel="stylesheet" href="demo.css"/>
+  <link href="http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300"
+        rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <div class="content">
+    <h1 class="text-center pad--quart logo">Type<sub class="red-color delta">&#8549;</sub></h1>
+    <section class="spacer"><a href="#install">Install</a></section>
+
+    <blockquote>
+      <p>In the sixteenth century, a series of common sizes developed among European typographers, and the series survived with little change 
+      and few additions for 400 years. [...] Use the old familiar scale, or use new scales of your own devising, but limit yourself, at first,
+      to a modest set of distinct and related intervals.<sup>[3]</sup></p>
+    </blockquote>
+
+    <p class="zeta pad--2 pad--lr"> &ldquo;Typesix&rdquo; is a vertical grid system loosely based on the research and findings of 
+    Robert Bringhurst, and a <a href=" http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">
+    2011 blog post</a> from Teehan LAX. In this article Teehan Lax designers explain why using a 6 pixel vertical grid system, they are able
+    to keep all of there designs cohesive and maintain similar vertical rhythym.</p>
+    <p class="pad--3">Most designers set their type arbitrarily, either by pulling values out of the sky or by adhering to a baseline 
+    grid. The former case isn&rsquo;t worth discussing here, but the latter requires a closer <a href="">look</a>.</p>
+
+    <p class="pad--3 pad--lr">Typesix's typographic scale is simply a modificaton or a fork of the Bringhurst Typographic
+    Scale, as mentioned is his book, <a href="">The Elements of Typographic Style</a>. Typesix is modified to use any element from
+    the Bringhurst Typographic Scale as a font-size. Line-heights in Typesix are limited to only the numbers which are divisible by six as
+    based on the Bringhurst Typograpic Scale.</p>
+
+    <p class="pad--3">Avoid using em tags when writing markup. The em tag adds an extra pixel to the line-height for reasons
+    I'm not sure of. Try using an italic font-style, or use the true italic font-face of the desired typeface.</p>
+
+    <figure class="pad--3 pad--b center">
+        <img style="height:120px;" src="http://www.retinart.net/media/images/typographicscale/typographicscale_s.gif" alt="bringhust typographic scale">
+        <figcaption class="theta pad">&ldquo;Don&lsquo;t compose without a scale&rdquo; &mdash; Robert Bringhust</a></figcaption>
+    </figure>
+
+    <article class="pad--2 pad--t">
+      <hgroup class="text-center">
+        <h5>Numbers Added to the</h5>
+        <h6>Bringurst Typographic Scale</h5>
+      </hgroup>
+      <p class="pad--lr text-center epsilon">
+        <strong class="blue-color">30</strong>, <strong class="blue-color">42</strong>, <strong class="green-color beta">96</strong>, <strong
+          class="red-color alpha">120</strong>, <strong class="red-color alpha">156</strong>
+      </p>
+    </article>
+
+    <section class="the-who pad--3 pad--lr">
+      <p class="pad"><span class="zeta"><strong>Why 30?&nbsp;</strong></span><strong>30</strong> is the first number divisible by six immediately
+      after <strong>24</strong>. According to the iOS Design Guidelines <strong>32px</strong>, is the optimal size for reading text on a mobile device. Consider
+      this as a font-size for mobile experiences. Personaly I love using <strong>30px</strong> for H2&rsquo;s, and subheadings.</p>
+      <p class="pad"><span class="zeta"><strong>Why 42?&nbsp;</strong></span><strong>42</strong> is chosen strictly has a line-height( a common
+      theme when using Typesix ). Typesix sets its type based on two opionated ideals. The first is <strong>960px</strong> is the optimal width
+      for viewing and reading on the web desktop. The second strong opinion is <strong>66</strong> characters is the ideal line-width for reading
+      text. Using the golden ration calculator, I've found the ideal line-height for a <strong>30px</strong> font is actually <strong>43px</strong> tall. Since
+      <strong>43</strong> is not divisible by 6 we round down to the nearest number divisible by six. which is our lucky number <strong>42</strong></p>
+      <p class="pad"><span class="zeta"><strong>Why 96?&nbsp;</strong></span><strong>96</strong> similiar to <strong>42</strong> is introduced because it's
+      the ideal font size for the largest number on the Bringust Scale <strong>72</strong>. Again using the same golden ratio rules as applied to
+      <strong>42</strong>. <strong>96px</strong> is the optimial is the exact optimal line-height for <strong>72px</strong> font. We strive to achive a <strong>66</strong> character
+      line width within a <strong>960px</strong> alloted space.</p>
+      <p class="pad"><span class="zeta"><strong>Why 120?&nbsp;</strong></span><strong>120</strong> exceeds the Bringhust Scale and honestly is a
+      number added strictly based upon the ideals of Typesix. 120px is largest type that I would typcally set on any website, and the
+      number <strong>120</strong> is a number than can be be divided into many pieces. <br/> Ultimately this means that <strong>120</strong> can be cut into
+      <mark>&frac12;,  &frac13;,  &frac14;, &frac15;, &frac16;, &frac18;</mark>.
+      By the way, all of the numbers added to Bringhust Scale for Typesix can easily be divided by <strong>4</strong>, which
+      gives us the ability to add padding and margin based on fractions of the font-size. To learn more about padding and margin as related to
+      Typesix and typography in general please take a look at <a href="#">MovePad</a>.</p>
+      <p class="pad"><span class="zeta"><strong>Why 156?&nbsp;</strong></span><strong>30</strong> </p>
+    </section>
+
+    <p class="pad--3 green-bg">Typesix doesn&rsquo;t give a fuck how you set your global border-box because all padding will based upon
+    font size, just ensure that all of your padding declarations conform to a number that is divisible by 3.
+    Using the <mark class="pad--quart">.pad</mark> class you'll have a standard padding of 1em set. To learn more about padding and margin
+    visit <a href="#">MovePad.css</a></p>
+
+    <p class="pad--3">Add a <mark>.spacer</mark> class for extactly <strong>72px</strong> degrees of separation, again abiding by the greatest
+    number on the Bringhurst scale.</p>
+
+    <section class="spacer">SPACER</section> 
+    <h3 class="text-center pad--2">The Typesix</h3>
+    <dl class="split"> 
+      <dt class="split__title alpha">alpha </dt> <dd class="alpha">120/156</dd>
+
+      <dt class="split__title beta">beta </dt> <dd class="beta">72/96</dd>
+
+      <dt class="split__title gamma">gamma </dt> <dd class="gamma">60/78</dd>
+
+      <dt class="split__title delta">delta </dt> <dd class="delta">48/66</dd>
+
+      <dt class="split__title epsilon">epsilon </dt> <dd class="epsilon">30/42</dd>
+
+      <dt class="split__title zeta">zeta </dt> <dd class="zeta">24/36</dd>
+
+      <dt class="split__title eta">eta </dt> <dd class="eta">18/30</dd>
+
+      <dt class="split__title theta">theta </dt> <dd class="theta">12/24</dd>
+
+      <dt class="split__title iota">iota </dt> <dd class="iota">9/24</dd>
+    </dl>
+    <section name="install" class="text-center pad--3">
+      <h4>Install Typesix using bower</h4>
+      <pre>bower install typescale</pre>
+    </section>
+  </div>
+</body>
+</html>

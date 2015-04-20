@@ -1,0 +1,112 @@
+html{
+}
+body {
+  background-color: #F6FCFA;
+  color: #083E63;
+}
+a:visited {
+  color: #001F27;
+}
+a {
+  color: #001F27;
+}
+a:hover {
+  color: #29DDE5;
+}
+.content{
+  max-width: 940px;
+  margin: 0 auto;
+  background-image: url(http://basehold.it/i/6/FF2851);
+}
+.content > * + * {
+}
+.text-center {
+  text-align: center;
+}
+
+.center {
+}
+
+figure img {
+  margin: 0 auto;
+  display: block;
+}
+figcaption {
+  text-align: center;
+}
+.alpha,.beta,.gamma,.delta,.epsilon,.zeta,.theta,.eta,.iota {
+  margin-bottom: 1em;
+}
+dl dt {
+  color: #ffc;
+}
+dl dd {
+  color: #fff;
+  background-color: #FF2851 !important
+}
+
+.split {
+  text-align: right;
+  list-style: none;
+  margin-left: 0;
+}
+.split__title {
+  text-align: left;
+  float: left;
+  clear: left;
+}
+
+
+sup a {
+  text-decoration: none;
+}
+sup {
+  top: -0.5em;
+}
+sub, sup {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 65%;
+  line-height: 0;
+}
+blockquote {
+  width: 600px;
+  margin: 4em auto;
+  position: relative;
+}
+blockquote:before {
+  -webkit-font-smoothing: antialiased;
+  color: rgb(140,140,140);
+  font-size: 3.60406em;
+  position: absolute;
+  font-style: italic;
+  content: "\201C";
+  line-height: 1em;
+  left: -0.60180em;
+  top: 0;
+}
+
+.logo {
+  letter-spacing: -6px;
+}
+.logo sub{
+  top: -32px;
+  color: #29DDE5;
+  letter-spacing: -6px;
+}
+
+.red-color {
+  color: #FF3824;
+}
+.blue-color {
+  color: #0073F8;
+}
+.orange-color {
+  color: #FF9600;
+}
+.yellow-color {
+  color: #FFCD00;
+}
+.green-color {
+  color: #44DB5E;
+}
