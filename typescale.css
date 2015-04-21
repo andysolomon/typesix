@@ -56,6 +56,10 @@ body{
   font-size: 18px;
   line-height: 30px;
 }
+p.eta {
+  max-width: 523px;
+  line-height: 27px;
+}
 
 .theta {
   font-size: 12px;
