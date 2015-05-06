@@ -1,0 +1,25 @@
+{
+  "name": "typesix",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andysolomon/typesix",
+  "authors": [
+    "Andrew Solomon <andrewsolomon.edu@gmail.com>"
+  ],
+  "description": "A vertical grid system.",
+  "main": "typesix.css",
+  "keywords": [
+    "vertical",
+    "grid",
+    "type",
+    "typography"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "index.html",
+    "demo.css",
+    "tests"
+  ]
+}

@@ -3,6 +3,8 @@ html{
 body {
   background-color: #F6FCFA;
   color: #083E63;
+  font-variant-ligatures: common-ligatures;
+  font-kerning: normal;
 }
 a:visited {
   color: #001F27;
