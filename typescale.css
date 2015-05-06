@@ -51,13 +51,16 @@ body{
   font-size: 24px;
   line-height: 36px;
 }
+section.zeta,article.zeta,p.zeta,blockquote.zeta,aside.zeta,div.zeta {
+  max-width: 698px;
+}
 
 .eta {
   font-size: 18px;
   line-height: 30px;
 }
-p.eta {
-  max-width: 523px;
+section.eta,article.eta,p.eta,blockquote.eta,aside.eta,div.eta {
+  max-width: 698px;
   line-height: 27px;
 }
 
@@ -128,6 +131,53 @@ p.eta {
 .pad--lr {
   padding-top: 0;
   padding-bottom: 0;
+}
+.move {
+  margin: 1em;
+}
+.move--2 {
+  margin: 2em;
+}
+.move--3 {
+  margin: 3em;
+}
+.move--half {
+  margin: 0.5em;
+}
+.move--quart {
+  margin: 0.25em;
+}
+.move-none {
+  margin: 0;
+}
+.move-b {
+  margin-bottom: 1em
+}
+.move-b--2 {
+  margin-bottom: 2em
+}
+.move-b--3 {
+  margin-bottom: 3em
+}
+.move-b--4 {
+  margin-bottom: 4em
+}
+.move-l {
+  margin-left: 1em
+}
+.move-t {
+  margin-top: 1em
+}
+.move-r {
+  margin-right: 1em;
+}
+.move-tb {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.move-lr {
+  margin-right: 1em;
+  margin-left: 1em;
 }
 /*
 .push {

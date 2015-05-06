@@ -14,7 +14,6 @@ a:hover {
   color: #29DDE5;
 }
 .content{
-  width: 50%;
   max-width: 940px;
   margin: 0 auto;
   background-image: url(http://basehold.it/i/6/FF2851);
@@ -110,4 +109,9 @@ blockquote:before {
 }
 .green-color {
   color: #44DB5E;
+}
+section,article,figure,blockquote {
+}
+.full-width {
+  width: 100%;
 }
